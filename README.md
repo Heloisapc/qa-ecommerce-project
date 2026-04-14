@@ -1,7 +1,9 @@
 # Projeto de Testes QA - E-commerce (SauceDemo)
 
 ## Sobre o projeto
-Este projeto tem como objetivo validar funcionalidades de um sistema de e-commerce utilizando testes manuais e automatizados.
+Este projeto foi desenvolvido com o objetivo de validar funcionalidades e o comportamento de um sistema de e-commerce, utilizando testes manuais e automatizados com Playwright.
+
+Durante o desenvolvimento, foram testados fluxos reais de usuário, como login, manipulação de carrinho e processo de checkout, incluindo cenários positivos e negativos.
 
 O sistema testado foi o site: https://www.saucedemo.com/
 
@@ -22,6 +24,12 @@ O sistema testado foi o site: https://www.saucedemo.com/
 - Adição de produto ao carrinho
 - Remoção de produto do carrinho
 - Checkout com validação de erro
+
+---
+
+## Objetivo dos testes
+
+Garantir o correto funcionamento das principais funcionalidades do sistema, incluindo autenticação de usuários, manipação de carrinho e validação de regras de negócio durante o processo de compra.
 
 ---
 
@@ -52,10 +60,12 @@ npx playwright test
 
 ---
 
-##  Estrutura do projeto
+## Estrutura do projeto
 
 - tests → testes automatizados
-- docs → documentação de testes manuais e bugs
+- tests/docs → documentação de testes manuais e bugs
+
+---
 
 ## Diferenciais do projeto
 
