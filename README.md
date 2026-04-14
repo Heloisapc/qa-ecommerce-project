@@ -56,3 +56,10 @@ npx playwright test
 
 - tests → testes automatizados
 - docs → documentação de testes manuais e bugs
+
+## Diferenciais do projeto
+
+- Cobertura de fluxo completo de usuário (login até checkout)
+- Validação de cenários positivos e negativos
+- Documentação de testes manuais
+- Registro de bug identificado durante os testes
