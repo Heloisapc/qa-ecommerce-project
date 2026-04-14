@@ -21,6 +21,7 @@ O sistema testado foi o site: https://www.saucedemo.com/
 - Login com senha inválida
 - Adição de produto ao carrinho
 - Remoção de produto do carrinho
+- Checkout com validação de erro
 
 ---
 
@@ -29,7 +30,7 @@ O sistema testado foi o site: https://www.saucedemo.com/
 Foi identificado um bug onde o sistema permite login com credenciais inválidas.
 
 Detalhes podem ser encontrados em:
-docs/bug-report.md
+tests/docs/bug-report.md
 
 ---
 
